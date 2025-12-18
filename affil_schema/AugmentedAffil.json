@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AugmentedAffil",
+  "description": "Data schema for augmented affiliation data in SciX Honeycomb",
+  "type": "object",
+  "properties": {
+    "aff": {
+      "type": "array",
+      "description": "Array of raw affil strings from the pub, one per author",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_abbrev": {
+      "type": "array",
+      "description": "Array of matched ADS canonical abbreviations",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_country": {
+      "type": "array",
+      "description": "Array of host countries of matched ADS affil",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_canonical": {
+      "type": "array",
+      "description": "Array of matched ADS canonical names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_facet_hier": {
+      "type": "array",
+      "description": "Array of affil facet data for the UI",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_id": {
+      "type": "array",
+      "description": "Array of matched ADS affiliation IDs",
+      "items": {
+        "type": "string"
+      }
+    },
+    "author": {
+      "type": "array",
+      "description": "Array of author names from the record",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bibcode": {
+      "type": "string",
+      "description": "ADS Bibliographic Code for the record (if any)"
+    },
+    "scix_id": {
+      "type": "string",
+      "description": "SciX Public Identifier for the record"
+    }
+  },
+  "required": [
+    "aff",
+    "author",
+    "scix_id"
+  ],
+  "additionalProperties": false
+}
