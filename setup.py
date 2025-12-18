@@ -10,7 +10,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 
-def get_git_version(default="v0.0.1"):
+def get_git_version(default="v1.0.0"):
     try:
         p = Popen(['git', 'describe', '--tags'], stdout=PIPE, stderr=PIPE)
         p.stderr.close()
@@ -25,9 +25,9 @@ with open('README.md', 'r') as fd:
 
 setup(
     name='affil_schema',
-    version=get_git_version(default="v0.0.1"),
-    url='http://github.com/seasidesparrow/SciXDataModels/Honeycomb_Augment_Affil/',
-    license="Gnu Affero Public License 3.0",
+    version=get_git_version(default="v1.0.0"),
+    url='http://github.com/adsabs/augment_affil_data_model/',
+    license="AGPL-3.0",
     author="Matthew Templeton",
     description='JSON Schema for SciX Honeycomb augmented affiliations',
     long_description=long_description,
