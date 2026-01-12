@@ -15,6 +15,7 @@ Augmentations to affiliations include the following:
 - `aff_country`: Country of origin for matched strings (type: list)
 - `aff_facet_hier`: Institution facet data used by the ADS and SciX user interfaces (type: list)
 - `aff_id`: ADS Affiliation IDs for matched strings (type: list)
+- `aff_iso_country`: ISO two-letter code for matched strings' country of origin (type: list)
 - `author`: Normalized author names `(surname, given name)` (type: list)
 - `bibcode`: The ADS Bibliographic Code for the record (type: string)
 - `scix_id` The SciX Identifier for the record (type: string)

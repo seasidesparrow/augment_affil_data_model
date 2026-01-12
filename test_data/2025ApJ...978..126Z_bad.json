@@ -5,6 +5,9 @@
     "Physics and Astronomy Department, Johns Hopkins University, Baltimore, MD 21218, USA",
     "TAPIR, Mailcode 350-17, California Institute of Technology, Pasadena, CA 91125, USA; Walter Burke Institute for Theoretical Physics, California Institute of Technology, Pasadena, CA 91125, USA"
   ],
+  "aff_invalid_field": [
+    "This field should not be here."
+  ],
   "aff_abbrev": [
     "JHU/Dep Phy Ast; STScI/STScI",
     "U Camb/U Camb; U Camb/IoA; Princeton IAS/Princeton IAS; -",
@@ -42,7 +45,12 @@
     "A00142",
     "A01098; A01098"
   ],
-  "aff_lol": "This field should not be here.",
+  "aff_iso_country": [
+    "US; US",
+    "GB; GB; US; -",
+    "US",
+    "US", "US"
+  ],
   "author": [
     "Zenati, Yossef",
     "Rozner, Mor",
