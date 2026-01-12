@@ -20,7 +20,7 @@
     },
     "aff_country": {
       "type": "array",
-      "description": "Array of host countries of matched ADS affil",
+      "description": "Array of host countries of matched ADS affils",
       "items": {
         "type": "string"
       }
@@ -42,6 +42,13 @@
     "aff_id": {
       "type": "array",
       "description": "Array of matched ADS affiliation IDs",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aff_iso_country": {
+      "type": "array",
+      "description": "Array of host country ISO Codes of matched ADS affils",
       "items": {
         "type": "string"
       }
